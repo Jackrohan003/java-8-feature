@@ -15,6 +15,9 @@ Collections.sort(names, (String a, String b) -> {
     return b.compareTo(a);
 });
 
+ //One liner code for Sorting Code
+ names.sort((a, b) -> b.compareTo(a));
+    
 names.forEach((str)->System.out.println(str));
     
   } 
