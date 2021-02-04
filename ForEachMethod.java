@@ -10,5 +10,8 @@ class ForEachMethod {
     
     stringList.forEach(str->System.out.println(str));
     
+    Consumer<Integer> c =i -> System.out.println(i);
+    list.forEach(c);//forEach method accept a Consumer interface object and the value is passes to the accept method.
+   
   } 
 }
