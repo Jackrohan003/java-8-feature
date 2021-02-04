@@ -1,3 +1,4 @@
+//For Each loop is faster than other loop since it is internal loop.
 import java.util.*;
 class ForEachMethod {  
   public static void main(String args[]) { 
